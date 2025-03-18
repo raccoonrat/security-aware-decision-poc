@@ -1,0 +1,10 @@
+data:
+  threat_data: "data/sample_threat.json"
+  legal_docs: "data/legal_docs/"
+
+models:
+  base_model: "models/pretrained/deepseek-moe-1.3b"
+  safety_model: "models/safety_model.pt"
+
+logging:
+  path: "logs/decision.log"

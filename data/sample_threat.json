@@ -1,0 +1,8 @@
+[
+    {
+        "timestamp": "2024-03-20T14:30:00Z",
+        "severity": 0.92,
+        "category": ["data_exfiltration"],
+        "source_ip": "192.168.1.100"
+    }
+]
