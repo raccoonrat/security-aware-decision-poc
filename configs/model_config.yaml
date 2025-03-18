@@ -1,0 +1,18 @@
+model:
+  name: "deepseek-ai/deepseek-moe-1.3b"
+  safety_threshold: 0.7
+  experts:
+    - type: "text"
+      dim: 1024
+    - type: "threat"
+      dim: 64
+    - type: "law"
+      dim: 32
+
+data:
+  threat_sources:
+    - "network_logs"
+    - "ids_alerts"
+  law_sources:
+    - "GDPR"
+    - "CCPA"
